@@ -1,6 +1,6 @@
-body, html {
+/* body, html {
   overflow-x: hidden;
-}
+} */
 .animated-gradient{
   background: linear-gradient(135deg, #eb670f, #4e48f4, #34ddd2, #9a22e5 , green,rgb(159, 65, 65),grey,purple,white);
   background-size: 400% 400%;
