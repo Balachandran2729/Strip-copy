@@ -1,0 +1,34 @@
+body, html {
+  overflow-x: hidden;
+}
+.animated-gradient{
+  background: linear-gradient(135deg, #eb670f, #4e48f4, #34ddd2, #9a22e5 , green,rgb(159, 65, 65),grey,purple,white);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  opacity: 0.9;
+  rotate: -15deg;
+  height: 90vh;
+  width: 111%;
+  padding-right: 650px;
+  margin: 0px 300px 270px 0px;
+  position: absolute;
+  z-index: -1;
+  top: -250px;
+  left: -150px;
+}
+     
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+}
+}
+ .maptag{
+    position: absolute;
+    top: -10%;
+   }  
